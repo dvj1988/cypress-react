@@ -1,0 +1,11 @@
+name: Cypress Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  mini-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          echo "Log level: ${{ github.event.inputs }}"
