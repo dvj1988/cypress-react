@@ -26,9 +26,10 @@ jobs:
           start: yarn serve
       - name: Rename file
         run: mv cypress/results/mochawesome.html cypress/results/index.html
-      # - name: Deploy Cypress test results
-      #   - uses: FirebaseExtended/action-hosting-deploy@v0
-      #   with:
-      #     repoToken: '${{ secrets.GITHUB_TOKEN }}'
-      #     firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CYPRESS_DASH }}'
-      #     projectId: cypress-dash
+      - name: Deploy Cypress test results
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_CYPRESS_DASH }}'
+          projectId: cypress-dash
+          channelId: live
