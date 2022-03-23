@@ -9,7 +9,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
 </p>
 
-This repository is my frontend boilerplate. Feel free to use this.
+This repository is my frontend boilerplate. Feel free to use thi
 
 ## Stack
 
@@ -20,6 +20,7 @@ This repository is my frontend boilerplate. Feel free to use this.
 - Eslint, Stylelint, Commitlint, Prettier, Editorconfig
 
 ## Library
+
 - [http-status](https://www.npmjs.com/package/http-status)
 - [immer](https://www.npmjs.com/package/immer)
 - [react-icons](https://www.npmjs.com/package/react-icons)
