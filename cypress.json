@@ -7,8 +7,7 @@
   "requestTimeout": 15000,
   "reporter": "mochawesome",
   "reporterOptions": {
-    "html": false,
-    "json": true,
+    "html": true,
     "reportDir": "cypress/results"
   }
 }

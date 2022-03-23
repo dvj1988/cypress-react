@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "cypress/results",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
